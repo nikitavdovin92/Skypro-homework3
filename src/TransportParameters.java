@@ -25,4 +25,5 @@ public abstract class TransportParameters {
     }
 
     public abstract void updateTyre();
+
 }

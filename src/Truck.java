@@ -17,4 +17,5 @@ public class Truck extends TransportParameters implements Engineable {
     public void checkTrailer() {
         System.out.println("Проверяем прицеп");
     }
+
 }

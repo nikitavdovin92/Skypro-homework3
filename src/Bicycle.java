@@ -8,4 +8,5 @@ public class Bicycle extends TransportParameters {
     public void updateTyre() {
         System.out.println("Меняем покрышку у велосипеда");
     }
+
 }
