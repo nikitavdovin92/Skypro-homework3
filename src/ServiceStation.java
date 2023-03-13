@@ -1,7 +1,7 @@
 public class ServiceStation {
     public void check (Car car) {
         checkTransportParameters(car);
-            car.checkEngine();
+            checkEngine(car);
     }
 
     public void check (Bicycle bicycle) {
@@ -11,7 +11,7 @@ public class ServiceStation {
 
     public void check (Truck truck) {
         checkTransportParameters(truck);
-        truck.checkEngine();
+        checkEngine(truck);
         truck.checkTrailer();
     }
 
@@ -22,5 +22,11 @@ public class ServiceStation {
         }
         transportParameters.updateTyre();
     }
+
+    private void checkEngine(Engineable engineable) {
+        engineable.checkEngine();
+
+    }
+
 }
 
